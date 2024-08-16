@@ -78,7 +78,7 @@ IS_COLAB = False
 try:
     import google.colab
 
-    IS_COLAB = True
+    IS_COLAB = False
     del google.colab
 except:
     pass
